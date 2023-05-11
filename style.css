@@ -1,0 +1,213 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+   .main{
+    width: 100%;
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(image1.jpeg);
+    background-position: center;
+    height: 109vh;
+   }
+  .navbar{
+    
+    width: 100%;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    width: 1200px;
+    height: 75px;
+    margin:auto;
+   
+  }
+  .icon{
+    width: 600px;
+    float: left;
+    height: 50px;
+  }
+  .logo{
+    height: 150%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 15px;
+  }
+.menu{
+  width:400px;
+  float: right;
+  height:70px;
+  
+
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  color: #fff;
+}
+.container h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20vh;
+}
+#about { background-color: #f25810;
+  color: rgb(11, 11, 10);
+  font-family: 'Times New Roman', Times, serif;
+ font-size: larger;
+}
+#services { background-color: #ffffff;
+  color: rgb(24, 26, 26); }
+#gallery { background-color: rgb(96, 75, 197);
+  color: rgb(174, 233, 233);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+ }
+#donate { background-color: #148c1e;
+  color: rgb(5, 5, 5);
+  font-family: 'Times New Roman', Times, serif;
+}
+#contact { background-color: #171616; 
+  color: rgb(240, 240, 225);
+}
+
+
+ul{
+  float:left;
+  display:flex;
+  justify-content:center;
+  align-items: left;
+}
+ul li{
+  list-style: none;
+  margin-left:10px;
+  margin-top:-60px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+ul li a{
+  text-decoration:none;
+  color:white;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+  color:coral;
+}
+
+.content{
+  width: 300px;
+  height: auto;
+  margin: auto;
+  color: rgb(215, 208, 208);
+  position:absolute;
+  text-align: left;
+}
+.content .par{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+
+}
+.content h1{
+  font-family: 'Times New Roman';
+  font-size: 35px;
+  padding-left: 20px;
+  margin-top: 75%;
+  letter-spacing: 2px;
+  color: rgb(227, 215, 202);
+}
+.content .cn{
+  width: 160px;
+  height: 40px;
+  background: orangered;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition:.4s ease;
+}
+.content .cn a{
+  text-decoration: none;
+  color: black;
+  transition: .3s ease;
+}
+.cn:hover{
+  background-color:aliceblue;
+}
+.container .bn{
+  width: 160px;
+  height: 40px;
+  background: orangered;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition:.4s ease;
+}
+.container .bn a{
+  text-decoration: none;
+  color: black;
+  transition: .3s ease;
+}
+.container .ln{
+  width: 160px;
+  height: 40px;
+  background: orangered;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition:.4s ease;
+}
+.container .ln a{
+  text-decoration: none;
+  color: black;
+  transition: .3s ease;
+}
+.container .kn{
+  width: 160px;
+  height: 40px;
+  background: orangered;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition:.4s ease;
+}
+.container .kn a{
+  text-decoration: none;
+  color: black;
+  transition: .3s ease;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.class {
+  align-items: center; 
+  float: left;
+}
+.image{
+    float: left;
+  padding: 5px;
+}
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: rgb(241, 218, 206);
+  color: rgb(20, 19, 19);
+}
